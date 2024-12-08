@@ -1,0 +1,28 @@
+.friends__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 8px;
+  padding: 20px 25px;
+}
+
+.friends__item img {
+  margin-bottom: 15px;
+}
+
+.friends__name {
+  font-size: 26px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.friends__status {
+  font-size: 18px;
+  color: red;
+}
+
+.friends__status.online {
+  color: green;
+}

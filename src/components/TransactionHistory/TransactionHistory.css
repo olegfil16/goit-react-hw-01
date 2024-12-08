@@ -1,0 +1,37 @@
+.transactions {
+  width: 800px;
+  margin: 0 auto 50px;
+  font-size: 20px;
+}
+
+.transactions,
+.transactions th,
+.transactions td {
+  border: 2px solid #000;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.transactions__head {
+  background-color: #292929;
+  color: #fff;
+}
+
+.transactions__body tr {
+  background-color: #fff;
+  width: calc(650px / 3);
+}
+
+.transactions__body tr:nth-child(2n) {
+  background-color: #cecece;
+}
+
+.transactions__body tr td {
+  width: calc(650px / 3);
+}
+
+.transactions__body tr td:first-child {
+  text-transform: capitalize;
+  text-align: left;
+  text-indent: 75px;
+}
